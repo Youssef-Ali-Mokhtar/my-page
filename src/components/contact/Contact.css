@@ -1,0 +1,57 @@
+.contact-section{
+    height:60vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1,35,73);
+    /* overflow-x: hidden; */
+}
+
+.contact-section-header h2 {
+    padding-top: 120px;
+    font-size: 6rem;
+  }
+
+.contact-links {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    column-gap: 30px;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  .contact-details {
+    color:white;
+    font-size: 2.2rem;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-out;
+  }
+
+  .contact-details:hover {
+    color: #ff7f50;
+    transform: translateY(8px);
+  }
+  
+  .discord:hover span {
+    display: none;
+  }
+  
+  .discord:hover:before {
+    content: "goodnews#2529";
+    font-size: 1.3rem;
+  }
+  
+
+  @media screen and (max-width: 960px) {
+    .contact-section-header h2 {
+        font-size: 4rem;
+    }
+    .contact-section a, .contact-section div{
+        font-size: 1.6rem;
+      }
+  }

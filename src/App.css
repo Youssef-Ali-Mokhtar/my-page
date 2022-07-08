@@ -1,0 +1,42 @@
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family: 'PT Sans', 'sans-serif';
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.4;
+  color: var(--main-white);
+  overflow-x: hidden;
+}
+
+.wrapper{
+  overflow-x:hidden;
+}
+
+h1,
+h2 {
+  /* font-weight: 700; */
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
