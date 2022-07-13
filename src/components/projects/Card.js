@@ -3,16 +3,11 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <a
-      target="_blank"
-      href={props.github}
-      className="item"
-      rel="noopener noreferrer"
-    >
-      <div className="item-overlay">
-        <p>{props.title}</p>
+    <a target="_blank" href={props.github} className="card" rel="noreferrer">
+      <div className="card-overlay">
+        <h1>{props.title}</h1>
       </div>
-      <img className="image-container" src={props.image} alt={props.title} />
+      <img src={props.image} alt={props.title} className="card-image" />
     </a>
   );
 };

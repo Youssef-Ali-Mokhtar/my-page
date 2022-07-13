@@ -13,7 +13,7 @@ const Home = (props) => {
       method: "GET",
       responseType: "blob",
     }).then((res) => {
-      fileDownload(res.data, "Youssef_Ali_Mokhtar_CV.pdf");
+      fileDownload(res.data, "Youssef_Mokhtar_CV.pdf");
     });
   };
   return (
@@ -25,7 +25,7 @@ const Home = (props) => {
           }
         >
           <h1>Hey, I am Youssef</h1>
-          <p>A Front End Web Developer</p>
+          <p>A Front End Developer</p>
           <button
             className="resume-button"
             onClick={(e) => {

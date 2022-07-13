@@ -54,4 +54,13 @@
     .contact-section a, .contact-section div{
         font-size: 1.6rem;
       }
+
+      .contact-section-header{
+        padding:10px 40px;
+      }
+
+      .contact-details{
+        padding: 5px;
+        column-gap: 10px;
+      }
   }

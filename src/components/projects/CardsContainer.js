@@ -4,7 +4,7 @@ import React from "react";
 
 const CardsContainer = () => {
   return (
-    <div className="container">
+    <div className="grid-container">
       <Card
         github="https://youssef-ali-mokhtar.github.io/Pac-Man/"
         image="https://i.imgur.com/nbuZn7d.png"
@@ -17,17 +17,17 @@ const CardsContainer = () => {
       />
       <Card
         github="https://youssef-ali-mokhtar.github.io/StackCalculator/"
-        image="https://i.imgur.com/r6TO3bE.png"
+        image="https://i.imgur.com/oq1EzW6.png"
         title="Stack Calculator"
       />
       <Card
         github="https://youssef-ali-mokhtar.github.io/To-Do-List/"
-        image="https://i.imgur.com/QxupPKJ.png"
+        image="https://i.imgur.com/V96uJ8o.png"
         title="To-Do List"
       />
       <Card
         github="https://youssef-ali-mokhtar.github.io/Small-Blog/"
-        image="https://i.imgur.com/ckEjJaY.png"
+        image="https://i.imgur.com/bjAr1AW.png"
         title="Small Blog"
       />
       <Card

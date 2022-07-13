@@ -25,6 +25,7 @@ body {
 
 .wrapper{
   overflow-x:hidden;
+  /* min-width: 300px; */
 }
 
 h1,
