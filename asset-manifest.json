@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.ce773600.css",
-    "main.js": "/my-page/static/js/main.f4e7acc0.js",
+    "main.css": "/my-page/static/css/main.9fefb387.css",
+    "main.js": "/my-page/static/js/main.d154d2e4.js",
     "static/media/myVideo.mp4": "/my-page/static/media/myVideo.4436c6674f261157a9bd.mp4",
     "static/media/Youssef_Ali_Mokhtar_CV.pdf": "/my-page/static/media/Youssef_Ali_Mokhtar_CV.5db9d999a17adeeb6322.pdf",
     "index.html": "/my-page/index.html",
-    "main.ce773600.css.map": "/my-page/static/css/main.ce773600.css.map",
-    "main.f4e7acc0.js.map": "/my-page/static/js/main.f4e7acc0.js.map"
+    "main.9fefb387.css.map": "/my-page/static/css/main.9fefb387.css.map",
+    "main.d154d2e4.js.map": "/my-page/static/js/main.d154d2e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce773600.css",
-    "static/js/main.f4e7acc0.js"
+    "static/css/main.9fefb387.css",
+    "static/js/main.d154d2e4.js"
   ]
 }
