@@ -25,7 +25,7 @@ const Home = (props) => {
           }
         >
           <h1>Hey, I am Youssef</h1>
-          <p>A Front End Developer</p>
+          <p>A Front End Web Developer</p>
           <button
             className="resume-button"
             onClick={(e) => {

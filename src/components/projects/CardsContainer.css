@@ -1,11 +1,11 @@
 .grid-container{
   display: grid;
-  grid-gap:20px;
   grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
-  grid-template-rows: repeat(auto, minmax(100px, 250px));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 250px));
   justify-items: stretch;
   align-items: stretch;
   justify-content: center;
   grid-gap: 30px;
+  padding:10px;
   z-index: 4;
 }
