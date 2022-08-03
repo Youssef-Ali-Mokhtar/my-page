@@ -1,0 +1,78 @@
+.react-section{
+    width:100%;
+    height: fit-content;
+    position: relative;
+    background-color: rgb(242,242,242);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  .underline-small-react{
+    max-width: 640px;
+    padding-top: 20px;
+    font-weight: 100;
+    color:rgb(51,51,51);
+    display:inline-block;
+    position:relative;
+  }
+  
+  .underline-small-react::after{
+    content:'';
+    height:6px;
+    width:40%;
+    background:rgb(1,117,227);
+    position:absolute;
+    left:30%;
+    bottom:-10px;
+  }
+
+.react-title-holder{
+  flex:0.5;
+}
+
+
+  .upper-curve{
+    position:absolute;
+    height:250px;
+    width:100%;
+    bottom:0;
+    transform: scaleX(1.1);
+  }
+  
+  .upper-curve::before{
+    content: '';
+    display:block;
+    position: absolute;
+    border-radius:100% 100% 0 0;
+    width: 100%;
+    height:100%;
+    z-index: 2;
+    transform: translate(0%, 70%);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(120, 120, 120, 0.12) 0px -12px 30px, rgba(120, 120, 120, 0.12) 0px 4px 6px,
+    rgba(120, 120, 120, 0.17) 0px 12px 13px, rgba(120, 120, 120, 0.09) 0px -3px 5px;
+  }
+
+
+
+
+  @media screen and (max-width: 990px) {
+    .upper-curve{
+      height:150px;
+      transform: scaleX(1.3);
+    }
+    
+    h2{
+      font-size: 2.2rem;
+    }
+  
+    .underline-small-react::after{
+      height:4px;
+    }
+
+  }
+   
+

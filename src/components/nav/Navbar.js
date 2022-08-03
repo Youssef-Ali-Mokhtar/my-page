@@ -1,4 +1,5 @@
 import "./Navbar.css";
+
 import React, { useState } from "react";
 const Navbar = (props) => {
   const [click, setClick] = useState(true);
@@ -32,11 +33,20 @@ const Navbar = (props) => {
         </li>
         <li>
           <a
+            href="#react-section"
+            className="nav-links"
+            onClick={closeMobileMenuHandler}
+          >
+            React
+          </a>
+        </li>
+        <li>
+          <a
             href="#projects-section"
             className="nav-links"
             onClick={closeMobileMenuHandler}
           >
-            Projects
+            JavaScript
           </a>
         </li>
         <li>

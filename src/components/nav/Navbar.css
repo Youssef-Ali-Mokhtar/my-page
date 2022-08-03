@@ -1,13 +1,9 @@
 
-  
-  a {
+.nav-bar a {
     text-decoration: none;
     color: grey;
   }
   
-  ul {
-    list-style: none;
-  }
   
   .nav-bar {
     display: flex;
@@ -17,6 +13,10 @@
     z-index: 5;
   }
   
+  .nav-bar ul{
+    list-style: none;
+  }
+
   .menu-icon {
     display: none;
     color: #45567d;
@@ -57,8 +57,8 @@
       transition: all 0.5s ease;
     }
     
-    li{
-      padding:30px;
+    .nav-bar li{
+        padding:30px;
     }
 
     .nav-list.active {
