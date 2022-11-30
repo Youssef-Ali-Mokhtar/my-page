@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.f7fc034f.css",
-    "main.js": "/my-page/static/js/main.d7b966de.js",
+    "main.css": "/my-page/static/css/main.598a10e6.css",
+    "main.js": "/my-page/static/js/main.71320385.js",
     "static/media/myVideo.mp4": "/my-page/static/media/myVideo.4436c6674f261157a9bd.mp4",
     "static/media/Youssef_Ali_Mokhtar_CV.pdf": "/my-page/static/media/Youssef_Ali_Mokhtar_CV.5db9d999a17adeeb6322.pdf",
     "static/media/expenses.xlsx": "/my-page/static/media/expenses.de87d6aee31d3869daee.xlsx",
     "index.html": "/my-page/index.html",
-    "main.f7fc034f.css.map": "/my-page/static/css/main.f7fc034f.css.map",
-    "main.d7b966de.js.map": "/my-page/static/js/main.d7b966de.js.map"
+    "main.598a10e6.css.map": "/my-page/static/css/main.598a10e6.css.map",
+    "main.71320385.js.map": "/my-page/static/js/main.71320385.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7fc034f.css",
-    "static/js/main.d7b966de.js"
+    "static/css/main.598a10e6.css",
+    "static/js/main.71320385.js"
   ]
 }
